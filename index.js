@@ -17,7 +17,7 @@
 //   })
 // }
 
-unction findMatching(drivers, string) {
+function findMatching(drivers, string) {
   return drivers.filter(function (driver) {
     return string.toUpperCase() === newDriver.toUpperCase();
   })
